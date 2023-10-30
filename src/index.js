@@ -1,4 +1,6 @@
 import express from 'express'
+import paymentRoutes from './routes/payment.routes'
+
 const app = express()
 
 app.listen(3000)
